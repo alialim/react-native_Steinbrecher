@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source            = { git: "https://github.com/react-native_Steinbrecher/react-native" }
   s.source_files      = "ios/*.{xcodeproj}", "ios/RCTPSPDFKit/*.{h,m,swift}", "ios/RCTPSPDFKit/Converters/*.{h,m,swift}"
   s.dependency("React")
-  s.dependency("PSPDFKit", "13.1.0")
-  s.dependency("Instant", "13.1.0")
+  s.dependency("PSPDFKit", "13.2.0")
+  s.dependency("Instant", "13.2.0")
   s.frameworks = "UIKit"
 end
